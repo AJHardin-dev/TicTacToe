@@ -9,8 +9,33 @@ namespace ProgramUI
     // Tic Tac Toe program by Prasanth and AJ
     internal class Program
     {
-        static void Main(string[] args)
+        public void Main(string[] args)
         {
+            RunProgram();
+            
+        }
+
+        public void RunProgram()
+        {
+            bool keepRunning = true;
+
+            while (keepRunning)
+            {
+                ShowMenu();
+                
+
+            }
+
+
+            return;
+        }
+
+        public void ShowMenu()
+        {
+            Console.WriteLine("Select an option:\n" +
+                "[1] - Play");
+            string userInput = Console.ReadLine();
+
         }
     }
 }
